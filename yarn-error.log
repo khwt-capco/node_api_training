@@ -1,22 +1,22 @@
-Arguments: 
+Arguments:
   /Users/khwt/.nvm/versions/node/v10.16.3/bin/node /usr/local/Cellar/yarn/1.17.3/libexec/bin/yarn.js install
 
-PATH: 
+PATH:
   /Users/khwt/.nvm/versions/node/v10.16.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
-Yarn version: 
+Yarn version:
   1.17.3
 
-Node version: 
-  10.16.3
+Node version:
+  8.0.0
 
-Platform: 
+Platform:
   darwin x64
 
-Trace: 
+Trace:
   Error: EACCES: permission denied, mkdir '/Users/khwt/Documents/induction/node_api_training/node_modules/express/node_modules'
 
-npm manifest: 
+npm manifest:
   {
     "name": "node_app",
     "version": "1.0.0",
@@ -51,8 +51,8 @@ npm manifest:
     }
   }
 
-yarn manifest: 
+yarn manifest:
   No manifest
 
-Lockfile: 
+Lockfile:
   No lockfile
