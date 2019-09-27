@@ -1,0 +1,32 @@
+{
+  "name": "node_app",
+  "version": "1.0.0",
+  "description": "practise node API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha"
+  },
+  "author": "Kiah Hewitt",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "express": "^4.17.1",
+    "log4js": "^5.1.0",
+    "mongodb": "^3.3.2",
+    "mongoose": "^5.7.1",
+    "nodemon": "^1.19.2",
+    "swagger-jsdoc": "^3.4.0",
+    "swagger-ui-express": "^4.1.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.1.0",
+    "mocha": "^6.2.0",
+    "mongo-unit": "^1.4.5",
+    "should": "^13.2.3",
+    "sinon": "^7.4.2",
+    "supertest": "^4.0.2"
+  }
+}
