@@ -1,27 +1,30 @@
-Arguments:
+Arguments: 
   /Users/khwt/.nvm/versions/node/v10.16.3/bin/node /usr/local/Cellar/yarn/1.17.3/libexec/bin/yarn.js install
 
-PATH:
+PATH: 
   /Users/khwt/.nvm/versions/node/v10.16.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
-Yarn version:
+Yarn version: 
   1.17.3
 
 Node version: 
   10.16.3
 
-Platform:
+Platform: 
   darwin x64
 
-Trace:
-  Error: EACCES: permission denied, mkdir '/Users/khwt/Documents/induction/node_api_training/node_modules/express/node_modules'
+Trace: 
+  Error: EACCES: permission denied, mkdir '/Users/khwt/Documents/induction/node_api_training/node_modules/term-size/node_modules/execa'
 
-npm manifest:
+npm manifest: 
   {
     "name": "node_app",
-    "version": "1.0.0",
+    "version": ">=8.0",
     "description": "practise node API",
     "main": "app.js",
+    "engines": {
+    "node": ">=8.0.0"
+  },
     "scripts": {
       "start": "node app.js",
       "test": "mocha"
@@ -33,6 +36,7 @@ npm manifest:
       "chai": "^4.2.0",
       "chai-http": "^4.3.0",
       "express": "^4.17.1",
+      "express-cluster": "0.0.5",
       "log4js": "^5.1.0",
       "mongodb": "^3.3.2",
       "mongoose": "^5.7.1",
@@ -51,8 +55,8 @@ npm manifest:
     }
   }
 
-yarn manifest:
+yarn manifest: 
   No manifest
 
-Lockfile:
+Lockfile: 
   No lockfile

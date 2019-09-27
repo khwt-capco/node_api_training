@@ -1030,6 +1030,11 @@ expand-brackets@^2.1.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
 
+express-cluster@0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/express-cluster/-/express-cluster-0.0.5.tgz#516c881b2a8f5d73bf2e3bbc2ea9540678aadefc"
+  integrity sha512-Wo0i4YFdj1341nkCxXO9zcO6ZGgiTiFEi+KMwE8bZexGg1sY2GmeDyHHEUDI+zSUJsQDSlT1EQSBnh5XaPIFVQ==
+
 express@^4.17.1:
   version "4.17.1"
   resolved "https://registry.yarnpkg.com/express/-/express-4.17.1.tgz#4491fc38605cf51f8629d39c2b5d026f98a4c134"
