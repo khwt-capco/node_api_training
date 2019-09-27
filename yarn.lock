@@ -2373,6 +2373,11 @@ nise@^1.5.2:
     lolex "^4.1.0"
     path-to-regexp "^1.7.0"
 
+node-bin-setup@^1.0.0:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/node-bin-setup/-/node-bin-setup-1.0.6.tgz#4b5c9bb937ece702d7069b36ca78af4684677528"
+  integrity sha512-uPIxXNis1CRbv1DwqAxkgBk5NFV3s7cMN/Gf556jSw6jBvV7ca4F9lRL/8cALcZecRibeqU+5dFYqFFmzv5a0Q==
+
 node-environment-flags@1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/node-environment-flags/-/node-environment-flags-1.0.5.tgz#fa930275f5bf5dae188d6192b24b4c8bbac3d76a"
@@ -2396,6 +2401,13 @@ node-pre-gyp@^0.12.0:
     rimraf "^2.6.1"
     semver "^5.3.0"
     tar "^4"
+
+node@10.16.3:
+  version "10.16.3"
+  resolved "https://registry.yarnpkg.com/node/-/node-10.16.3.tgz#b06770d8a1f104b606200ec41b29b26edc564a88"
+  integrity sha512-C4cap2MWkJ6m4W40B18DqxWhGy4X4B+0fdOpiOYUPwRXJhMEGyIkzztPgULIthK9RZOgTiDPRkJQMxkOcefHHg==
+  dependencies:
+    node-bin-setup "^1.0.0"
 
 nodemon@^1.19.2:
   version "1.19.2"
