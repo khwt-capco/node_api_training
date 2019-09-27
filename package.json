@@ -4,7 +4,7 @@
   "description": "practise node API",
   "main": "app.js",
   "engines": {
-  "node": "8.x|10.x"
+  "node": ">=8.0.0"
 },
   "scripts": {
     "start": "node app.js",
