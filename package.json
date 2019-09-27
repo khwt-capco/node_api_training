@@ -1,6 +1,6 @@
 {
   "name": "node_app",
-  "version": "8.0.0",
+  "version": ">=8.0",
   "description": "practise node API",
   "main": "app.js",
   "engines": {
