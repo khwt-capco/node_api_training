@@ -1,10 +1,10 @@
 {
   "name": "node_app",
-  "version": ">=8.0",
+  "version": "10.16.3",
   "description": "practise node API",
   "main": "app.js",
   "engines": {
-    "node": ">=8.0.0"
+    "node": "10.16.3"
   },
   "scripts": {
     "start": "node app.js",
