@@ -1,5 +1,5 @@
 Arguments: 
-  /Users/khwt/.nvm/versions/node/v10.16.3/bin/node /usr/local/Cellar/yarn/1.17.3/libexec/bin/yarn.js add log4js
+  /Users/khwt/.nvm/versions/node/v10.16.3/bin/node /usr/local/Cellar/yarn/1.17.3/libexec/bin/yarn.js install --force
 
 PATH: 
   /Users/khwt/.nvm/versions/node/v10.16.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
@@ -14,17 +14,17 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: EACCES: permission denied, unlink '/Users/khwt/Documents/induction/node_api_training/node_modules/term-size/node_modules/execa/index.js'
+  Error: EACCES: permission denied, unlink '/Users/khwt/Documents/induction/node_api_training/node_modules/node-bin-setup/index.js'
 
 npm manifest: 
   {
     "name": "node_app",
-    "version": ">=8.0",
+    "version": "10.16.3",
     "description": "practise node API",
     "main": "app.js",
     "engines": {
-    "node": ">=8.0.0"
-  },
+      "node": "10.16.3"
+    },
     "scripts": {
       "start": "node app.js",
       "test": "mocha"
@@ -40,6 +40,7 @@ npm manifest:
       "log4js": "^5.1.0",
       "mongodb": "^3.3.2",
       "mongoose": "^5.7.1",
+      "node": "10.16.3",
       "nodemon": "^1.19.2",
       "swagger-jsdoc": "^3.4.0",
       "swagger-ui-express": "^4.1.1",
@@ -2434,6 +2435,11 @@ Lockfile:
       lolex "^4.1.0"
       path-to-regexp "^1.7.0"
   
+  node-bin-setup@^1.0.0:
+    version "1.0.6"
+    resolved "https://registry.yarnpkg.com/node-bin-setup/-/node-bin-setup-1.0.6.tgz#4b5c9bb937ece702d7069b36ca78af4684677528"
+    integrity sha512-uPIxXNis1CRbv1DwqAxkgBk5NFV3s7cMN/Gf556jSw6jBvV7ca4F9lRL/8cALcZecRibeqU+5dFYqFFmzv5a0Q==
+  
   node-environment-flags@1.0.5:
     version "1.0.5"
     resolved "https://registry.yarnpkg.com/node-environment-flags/-/node-environment-flags-1.0.5.tgz#fa930275f5bf5dae188d6192b24b4c8bbac3d76a"
@@ -2457,6 +2463,13 @@ Lockfile:
       rimraf "^2.6.1"
       semver "^5.3.0"
       tar "^4"
+  
+  node@10.16.3:
+    version "10.16.3"
+    resolved "https://registry.yarnpkg.com/node/-/node-10.16.3.tgz#b06770d8a1f104b606200ec41b29b26edc564a88"
+    integrity sha512-C4cap2MWkJ6m4W40B18DqxWhGy4X4B+0fdOpiOYUPwRXJhMEGyIkzztPgULIthK9RZOgTiDPRkJQMxkOcefHHg==
+    dependencies:
+      node-bin-setup "^1.0.0"
   
   nodemon@^1.19.2:
     version "1.19.2"
