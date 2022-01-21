@@ -18,7 +18,7 @@
     "chai-http": "^4.3.0",
     "express": "^4.17.1",
     "express-cluster": "0.0.5",
-    "log4js": "^5.1.0",
+    "log4js": "^6.4.0",
     "mongodb": "^3.3.2",
     "mongoose": "^5.7.1",
     "node": "10.16.3",
