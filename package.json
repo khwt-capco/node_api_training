@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "dotenv": "^8.1.0",
-    "mocha": "^6.2.0",
+    "mocha": "^10.2.0",
     "mongo-unit": "^1.4.5",
     "should": "^13.2.3",
     "sinon": "^7.4.2",
